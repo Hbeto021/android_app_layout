@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Android layouts</string>
+
+    <string name="relative_layout_title">RelativeLayout</string>
+    <string name="relative_layout_description">RelativeLayout, an Android layout. To use it you must align its
+        components relative to parent or other components (siblings)
+    </string>
+
+    <string name="linear_layout_title">LinearLayout</string>
+    <string name="linear_layout_description">LinearLayout, an Android layout. It works by sorting the components
+        linearly, can be horizontal or vertical. By default, it always sorting its
+        components from up to bottom (if vertical) or from left to right (if horizontal).
+    </string>
+
+
+    <string name="constraint_layout_title">ConstraintLayout</string>
+    <string name="constraint_layout_description">Currently the last and newer layout built by Android.
+        It allows build big and complexes layouts. It looks like the RelativeLayout, the components are align to parent
+        or siblings but is more flexible and easy to use with Android Studio\'s Layout Editor. You must add at least
+        one horizontal and one vertical constraint for the component.</string>
+
+
+    <string name="frame_layout_title">FrameLayout</string>
+    <string name="frame_layout_description">FrameLayout, an Android layout. It works with layers, you can display
+        components over the others in the order they are defined in layout XML, like an image over other image and etc. You must use layout_gravity to position
+        the views.
+    </string>
+
+
+    <string name="dialog_positive_button">OK</string>
+
+
+</resources>

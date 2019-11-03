@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:orientation="vertical"
+        android:paddingEnd="6dp"
+        android:paddingStart="6dp">
+
+    <Button
+            android:id="@+id/button_go_to_linear_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Go to LinearLayout"
+            android:textSize="16sp"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:background="@android:color/black"/>
+
+    <Button
+            android:id="@+id/button_go_to_relative_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Go to RelativeLayout"
+            android:textSize="16sp"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:background="@android:color/black"/>
+    <Button
+            android:id="@+id/button_go_to_frame_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Go to FrameLayout"
+            android:textSize="16sp"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:background="@android:color/black"/>
+    <Button
+            android:id="@+id/button_go_to_constraint_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Go to ConstraintLayout"
+            android:textSize="16sp"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:background="@android:color/black"/>
+</LinearLayout>
